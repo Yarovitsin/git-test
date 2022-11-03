@@ -1,3 +1,0 @@
-/home/yarovitsin/CLionProjects/git_test/cmake-build-debug/CMakeFiles/git_test.dir
-/home/yarovitsin/CLionProjects/git_test/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/yarovitsin/CLionProjects/git_test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
