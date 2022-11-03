@@ -19,12 +19,12 @@ list<int> inputList()
     return l;
 }
 
-//function that finds the biggest number in a list
-int findBiggest(list<int> l) {
-    int biggest = 0;
+//function that finds the smallest number in a list
+int findSmallest(list<int> l) {
+    int smallest = 2147483647;
     for (auto i : l) {
-        if (i > biggest) {
-            biggest = i;
+        if (i < smallest) {
+            smallest = i;
         }
     }
     return biggest;
