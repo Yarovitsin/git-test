@@ -2,10 +2,24 @@
 #include <list>
 using namespace std;
 
-list<int> l = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+//function to input the list
+list<int> inputList()
+{
+    list<int> l;
+    int n;
+    cout << "Enter the number of elements in the list: ";
+    cin >> n;
+    cout << "Enter the elements of the list: ";
+    for (int i = 0; i < n; i++)
+    {
+        int x;
+        cin >> x;
+        l.push_back(x);
+    }
+    return l;
+}
 
-//function that finds biggest number in a list
-
+//function that finds the biggest number in a list
 int findBiggest(list<int> l) {
     int biggest = 0;
     for (auto i : l) {
@@ -17,6 +31,6 @@ int findBiggest(list<int> l) {
 }
 
 int main() {
-    cout << findBiggest(l) << endl;
+    cout << findBiggest(inputList());
     return 0;
 }
